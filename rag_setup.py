@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import HuggingFaceHub
 
 # Hugging Face token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "" #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
 
 # Get chunks from DB
 chunks = get_all_chunks()
